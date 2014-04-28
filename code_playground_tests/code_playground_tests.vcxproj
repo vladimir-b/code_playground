@@ -92,6 +92,11 @@
     </ClCompile>
     <ClCompile Include="skip_spaces_test.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\code_playground\code_playground.vcxproj">
+      <Project>{c14583b4-2ddb-4147-942a-6f4081892784}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

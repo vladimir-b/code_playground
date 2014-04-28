@@ -10,9 +10,17 @@ namespace code_playground_tests
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(general_test)
 		{
-			// TODO: Your test code here
+			// ARRANGE
+			std::string str(" aa bb ccc  ");
+
+			// ACT
+			std::string result;
+			skip_spaces(str, result);
+
+			// ASSERT
+			Assert::AreEqual("aabbccc", result.c_str());
 		}
 
 	};
