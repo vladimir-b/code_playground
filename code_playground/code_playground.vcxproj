@@ -76,6 +76,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="headers\maximum_subarray_problem.hpp" />
     <ClInclude Include="headers\skip_spaces.h" />
   </ItemGroup>
   <ItemGroup>
