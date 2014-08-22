@@ -78,9 +78,11 @@
   <ItemGroup>
     <ClInclude Include="headers\maximum_subarray_problem.hpp" />
     <ClInclude Include="headers\skip_spaces.h" />
+    <ClInclude Include="headers\string_manipulations.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sources\skip_spaces.cpp" />
+    <ClCompile Include="sources\string_manipulations.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
